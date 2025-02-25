@@ -1,0 +1,17 @@
+body{
+    background-color: white;
+}
+.time-contain{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 30px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+#time{
+    font-weight: 900;
+    font-size: 30px;
+    padding: 10px 40px;
+}
+
