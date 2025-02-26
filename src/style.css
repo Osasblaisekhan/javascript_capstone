@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin-left: 130px;
+}
+
+.sub-container {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 10px;
+}
+
+.image-container {
+  display: flex;
+}
+
+.image-contain {
+  margin-top: 20px;
+  width: 300px;
+  height: 350px;
+}
