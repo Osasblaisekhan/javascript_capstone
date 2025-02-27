@@ -1,14 +1,14 @@
 class APILoader {
-    constructor() {
-      this.url = '';
-    }
-  
+  constructor() {
+    this.url = '';
+  }
+
       getData = async () => {
         const res = await fetch(this.url);
         const data = await res.json();
         return data;
       }
-  
+
       setData = async (data = null) => {
         try {
           const res = await fetch(this.url, {
@@ -23,6 +23,6 @@ class APILoader {
           return error;
         }
       }
-  }
-  
-  export default APILoader;
+}
+
+export default APILoader;

@@ -43,17 +43,19 @@ body {
 }
 
 .logo {
-  font-size: 24px; 
+  font-size: 24px;
   font-weight: bold;
-  color: #2b2a2a; 
+  color: #2b2a2a;
   text-transform: uppercase;
   letter-spacing: 1px;
-  transition: color 0.3s; 
+  transition: color 0.3s;
   cursor: pointer;
 }
+
 .logo:hover {
   color: #0a74da;
 }
+
 .footer a {
   text-decoration: none;
   color: black;
@@ -116,14 +118,17 @@ body {
   flex-direction: column;
   gap: 10px;
 }
+
 marquee {
   font-size: 20px;
   color: black;
   width: 495px;
 }
-i{
+
+i {
   color: black;
 }
+
 .footer p {
   font-style: italic;
   color: black;
