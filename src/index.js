@@ -1,4 +1,5 @@
+import DOMManipulator from './modules/dom_manipulator.js';
 import './style.css';
-import { fetchData } from './modules/display.js';
 
-fetchData();
+const dom = new DOMManipulator();
+dom.displayItems();
